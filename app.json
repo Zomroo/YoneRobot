@@ -29,7 +29,7 @@
     "TOKEN": {
        "description": "Your bot token. Get one from @BotFather duh",
        "required": true,
-       "value": ""
+       "value": "5314896253:AAFGc414ZbuvvNBy8TyRMHFT5k3Kg1bxsBw"
     },
     "API_ID": {
        "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
@@ -74,7 +74,7 @@
     "DEV_USERS": {
        "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
        "required": false,
-       "value": ""
+       "value": "5102580882"
     },
     "INSPECTOR": {
        "description": "A space separated list of user IDs who you want to assign as inspector users.",
