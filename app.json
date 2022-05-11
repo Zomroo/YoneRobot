@@ -34,32 +34,32 @@
     "API_ID": {
        "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
        "required": true,
-       "value": "3160248"
+       "value": "10784516"
     },
     "API_HASH": {
        "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
        "required": true,
-       "value": "da866bcad3446898c4d4a20fa10b9d09"
+       "value": "aab8da3e-6e0d-449d-aed6-2f61d2794306"
     },    
     "SQLALCHEMY_DATABASE_URI": {
        "description": "Your postgres sql db, empty this field if you dont have one.",
        "required": false,
-       "value": "sqldbtype://username:pw@hostname:port/db_name"
+       "value": "postgres://vctfpilc:IPCLsF9Qsa2ellY7Qr1gPq_n14iBhXG5@heffalump.db.elephantsql.com/vctfpilc"
     },      
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
-       "value": "1697409878"
+       "value": "1938491135"
     },
 
     "BOT_NAME": {
        "description": "Insert below your bot, it will appear everywhere",
        "required": true,
-       "value": ""
+       "value": "Husbando Randi"
     },
     "OWNER_USERNAME": {
        "description": "Your username without the @",
-       "value": "kumjojass"
+       "value": "AharenRobot"
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
@@ -103,7 +103,7 @@
     "URL": {
        "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
        "required": false,
-       "value": ""
+       "value": "https://qwertyu.herokuapp.com/"
     },
     "No_LOAD": {
        "description": "Dont load these modules cause they shit, space separation",
