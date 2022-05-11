@@ -9,9 +9,9 @@ import requests
 from bs4 import BeautifulSoup
 from telegram import InputMediaPhoto, TelegramError
 
-from Raiden import dispatcher
-from Raiden.modules.disable import DisableAbleCommandHandler
-from Raiden.modules.helper_funcs.alternate import typing_action
+from Yone import dispatcher
+from Yone.modules.disable import DisableAbleCommandHandler
+from Yone.modules.helper_funcs.alternate import typing_action
 
 opener = urllib.request.build_opener()
 useragent = (
