@@ -92,6 +92,7 @@ I have lots of handy features such as:
 ‣ Note keeping system
 ‣ Filters keeping system
 ‣ Approvals and much more.
+Powered By - @zomrooo
 
 So what are you waiting for?
 *Add me in your groups and give me full rights to make me function well.*
@@ -167,9 +168,9 @@ def start(update: Update, context: CallbackContext):
             text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Admin", callback_data="admin_back"),
+        InlineKeyboardButton(text="Zomrooo", url=f"https://t.me/Zomrooo"),
         InlineKeyboardButton(
-            text="Users", callback_data="user_back"
+            text="huaa", url=f"https://t.me/Zomrooo"
         ),
     ],
     [
