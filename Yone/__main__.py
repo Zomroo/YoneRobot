@@ -226,7 +226,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text="""Hello *{}*, My name is *{}*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
+            text="""Hello *{}*, My name is *{}*. A Powerful Telegram Group Management Bot built to help you manage Group easily[.](https://telegra.ph/file/03318cafffa48d3bed09b.jpg)
             \n ‣ I can Restrict Users.
             \n ‣ I can Greet Users with customizable welcome message and even set a group rules
             \n ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
