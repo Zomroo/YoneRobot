@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/Yone_Updates">?</a>]'.format(
+        text += ' [<a href="https://t.me/lusi_boTs">?</a>]'.format(
             bot.username
         )
 
@@ -327,7 +327,7 @@ def info(update: Update, context: CallbackContext):
         try:
             mod_info = mod.__user_info__(user.id).strip()
         except TypeError:
-            mod_info = mod.__user_info__(user.id, chat.id).strip()
+            mod_info = mod.__user_info__(user.id, chat.id).strip
         if mod_info:
             text += "\n\n" + mod_info
 
@@ -563,7 +563,7 @@ Examples:
  ‣ `/ginfo`*:* get information about a Group. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/Yone_Updates)
+ Come and see [HP System explained](https://t.me/lusi_boTs/16)
 """
 __mod_name__ = "Infos"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
