@@ -84,7 +84,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
+ I am an Anime Themed Group Managing Bot and I will help in managing your group.
 I have lots of handy features such as:
 ‣ Warning system
 ‣ Artificial intelligence
@@ -187,7 +187,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
             text = (
-                f"Hello {mention_html(user.id, user.first_name)}, I'm {bot.first_name}\n\n"
+                f"Hello {mention_html(user.id, user.first_name)}, I'm {bot.first_name}\nI am an Anime Themed Group Managing Bot and I will help in managing your group.\n"
                 f"┏━━━━━━━━━━━━━━━━━━━\n"
                 f"┣[• Owner : @{OWNER_USERNAME}  \n"
                 f"┣[• Uptime : {uptime} \n"
